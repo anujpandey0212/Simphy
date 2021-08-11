@@ -13,6 +13,18 @@ const Mainscreen = (props) => {
                
                ></ImageBackground>
            </View>
+           <View style={styles.simulation_container}>
+               <Text style={styles.header_font}>Featured</Text>
+               <View style={styles.line}></View>
+           </View>
+           <View style={styles.simulation_container}>
+                <Text style={styles.header_font}>Recent</Text>
+                <View style={styles.line}></View>
+           </View>
+           <View style={styles.simulation_container}>
+                <Text style={styles.header_font}>Newly added</Text>
+                <View style={styles.line}></View>
+           </View>
         </View>
     );
 };
