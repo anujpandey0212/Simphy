@@ -49,16 +49,28 @@ const styles=StyleSheet.create({
     display:'flex',
     flexDirection:'row',
     height:'65%',
-    width:'50%',
+    width:'45%',
     marginTop:20,
+    marginLeft:13,
    },
    simulation_boxes:
    {
        height:"100%",
-       width:'90%',
+       width:'85%',
        backgroundColor:'#83AFF0',
        marginLeft:10,
-   }
+   },
+   side_button_left:{
+        height:15,
+        width:15,
+        marginTop:'30%'
+   },
+   side_button_right:{
+    height:15,
+    width:15,
+    marginTop:'30%',
+    marginLeft:10,
+},
 });
 
 export default styles;
