@@ -70,7 +70,13 @@ const styles=StyleSheet.create({
     width:15,
     marginTop:'30%',
     marginLeft:10,
-},
+    },
+    Drawer:{
+        backgroundColor: 'black',
+        flex: 1,
+
+    }
+
 });
 
 export default styles;
