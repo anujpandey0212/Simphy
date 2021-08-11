@@ -27,7 +27,7 @@ const styles=StyleSheet.create({
    simulation_container:{
     height:'24%',
     width:'95%',
-    backgroundColor:'#83AFF0',
+    backgroundColor:'#4779C4',
     marginTop:30,
     marginLeft:10,
     marginRight:10,
@@ -44,6 +44,20 @@ const styles=StyleSheet.create({
     marginLeft:10,
     marginRight:10,
     paddingTop:3,
+   },
+   boxes_container:{
+    display:'flex',
+    flexDirection:'row',
+    height:'65%',
+    width:'50%',
+    marginTop:20,
+   },
+   simulation_boxes:
+   {
+       height:"100%",
+       width:'90%',
+       backgroundColor:'#83AFF0',
+       marginLeft:10,
    }
 });
 
