@@ -9,18 +9,18 @@ const styles=StyleSheet.create({
    header:{
        width:'100%',
        height:100,
-       backgroundColor:'yellow',
+       backgroundColor:'#010202',
    },
    notch:{
     width:'100%',
     height:35,
-    backgroundColor:'grey',
+    backgroundColor:'#100F0F',
    },
    simphy_logo:{
        height:41,
        width:150,
        marginTop:10,
-       paddingLeft:'50%',
+       alignSelf:'center',
    }
 });
 
