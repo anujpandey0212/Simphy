@@ -40,8 +40,8 @@ export default function App() {
     <NavigationContainer theme={DarkTheme}>
       <Drawer.Navigator
         initialRouteName="Home"
-        
-      >
+        >
+          {/* this is home screen */}
         <Drawer.Screen name="Home" component={Mainscreen}
 
         options={{
@@ -56,9 +56,55 @@ export default function App() {
           },
         }}/>
 
-        <Drawer.Screen name="Notifications" component={Mainscreen} 
+          {/* this is optics screen */}
+        <Drawer.Screen name="Optics" component={Mainscreen} 
         options={{
-          title: 'Notifications', //Set Header Title
+          title: 'Optics', //Set Header Title
+          
+          headerStyle: {
+            backgroundColor: "black", //Set Header color
+          },
+          headerTintColor: "white",
+          headerTitleStyle: {
+            fontWeight: "bold", //Set Header text style
+          },
+        }}
+        />
+
+          {/* this is modern physics screen */}
+        <Drawer.Screen name="Modern_physics" component={Mainscreen} 
+        options={{
+          title: 'Modern Physics', //Set Header Title
+          
+          headerStyle: {
+            backgroundColor: "black", //Set Header color
+          },
+          headerTintColor: "white",
+          headerTitleStyle: {
+            fontWeight: "bold", //Set Header text style
+          },
+        }}
+        />
+
+          {/* this is Electro dynamics screen */}
+        <Drawer.Screen name="Electro_dynamics" component={Mainscreen} 
+        options={{
+          title: 'Electro Dynamics', //Set Header Title
+          
+          headerStyle: {
+            backgroundColor: "black", //Set Header color
+          },
+          headerTintColor: "white",
+          headerTitleStyle: {
+            fontWeight: "bold", //Set Header text style
+          },
+        }}
+        />
+
+          {/* this is about us screen */}
+        <Drawer.Screen name="About_us" component={Mainscreen} 
+        options={{
+          title: 'About Us', //Set Header Title
           
           headerStyle: {
             backgroundColor: "black", //Set Header color
