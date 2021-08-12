@@ -24,9 +24,12 @@ const styles=StyleSheet.create({
     height:'28%',
     width:'95%',
     backgroundColor:'#4779C4',
-    marginTop:30,
+    marginTop:10,
     marginLeft:10,
     marginRight:10,
+    marginBottom:10,
+    borderRadius:9,
+    zIndex:-1,
    },
    header_font:{
     color:'white',

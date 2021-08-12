@@ -20,7 +20,7 @@ const Mainscreen = (props) => {
         <Text style={styles.header_font}>Newly added</Text>
         <View style={styles.line}></View>
         {/* SCROLL START */}
-        <View style={{ height: 200, marginTop: 20 }}>
+        <View style={{ height: 250, marginTop: 20 }}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
             <Category
               imageUri={require("../../assets/images/earth.png")}
@@ -44,7 +44,7 @@ const Mainscreen = (props) => {
         <Text style={styles.header_font}>Recent</Text>
         <View style={styles.line}></View>
         {/* SCROLL START */}
-        <View style={{ height: 200, marginTop: 20 }}>
+        <View style={{ height: 250, marginTop: 20 }}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
             <Category
               imageUri={require("../../assets/images/earth.png")}
@@ -70,7 +70,7 @@ const Mainscreen = (props) => {
         <Text style={styles.header_font}>Newly added</Text>
         <View style={styles.line}></View>
         {/* SCROLL START */}
-        <View style={{ height: 200, marginTop: 20 }}>
+        <View style={{ height: 250, marginTop: 20 }}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
             <Category
               imageUri={require("../../assets/images/earth.png")}

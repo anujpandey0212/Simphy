@@ -9,10 +9,10 @@ import {
 class Category extends Component {
     render() {
         return (
-            <View style={{ height: 250, width: 200, marginLeft: 20, borderWidth: 0.5, borderColor: '#dddddd' , backgroundColor: 'black'}}>
-                <View style={{ flex: 2 }}>
+            <View style={{ zIndex:30,flex:1,height: 230, width: 200, marginLeft: 20, borderWidth: 1, borderColor: '#dddddd' , backgroundColor: 'black',borderRadius:5}}>
+                <View style={{ flex: 2}}>
                     <Image source={this.props.imageUri}
-                        style={{ flex: 1, width: null, height: null, resizeMode: 'cover' }}
+                        style={{ flex: 1, width: null, height: null, resizeMode: 'cover',borderTopRightRadius:5,borderTopLeftRadius:5 }}
                     />
                 </View>
                 <View style={{ flex: 1, paddingLeft: 10, paddingTop: 10 }}>
