@@ -2,6 +2,9 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Mainscreen from "./components/mainscreen";
+import Electro_Dynamics from "./components/Electro_dynamics";
+import Modern_physics from "./components/Modern_Physics";
+import Optics from "./components/Optics";
 
 import "react-native-gesture-handler";
 
@@ -57,7 +60,7 @@ export default function App() {
         }}/>
 
           {/* this is optics screen */}
-        <Drawer.Screen name="Optics" component={Mainscreen} 
+        <Drawer.Screen name="Optics" component={Optics} 
         options={{
           title: 'Optics', //Set Header Title
           
@@ -72,7 +75,7 @@ export default function App() {
         />
 
           {/* this is modern physics screen */}
-        <Drawer.Screen name="Modern_physics" component={Mainscreen} 
+        <Drawer.Screen name="Modern_physics" component={Modern_physics} 
         options={{
           title: 'Modern Physics', //Set Header Title
           
@@ -87,7 +90,7 @@ export default function App() {
         />
 
           {/* this is Electro dynamics screen */}
-        <Drawer.Screen name="Electro_dynamics" component={Mainscreen} 
+        <Drawer.Screen name="Electro_dynamics" component={Electro_Dynamics} 
         options={{
           title: 'Electro Dynamics', //Set Header Title
           

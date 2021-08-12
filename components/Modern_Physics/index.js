@@ -3,20 +3,14 @@ import { View, Text, ImageBackground, ScrollView } from "react-native";
 import styles from "./styles";
 import Category from "../../components/Category";
 
-const Mainscreen = (props) => {
+const Modern_physics = (props) => {
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <ImageBackground
-          source={require("../../assets/images/simphy-logo.png")}
-          style={styles.simphy_logo}
-        ></ImageBackground>
-      </View>
 
       <View style={{flex:1}}>
       <ScrollView >
       <View style={styles.simulation_container}>
-        <Text style={styles.header_font}>Newly added</Text>
+        <Text style={styles.header_font}>Subtopic 1</Text>
         <View style={styles.line}></View>
         {/* SCROLL START */}
         <View style={{ height: 250, marginTop: 20 }}>
@@ -40,7 +34,7 @@ const Mainscreen = (props) => {
       </View>
 
       <View style={styles.simulation_container}>
-        <Text style={styles.header_font}>Recent</Text>
+        <Text style={styles.header_font}>Subtopic 2</Text>
         <View style={styles.line}></View>
         {/* SCROLL START */}
         <View style={{ height: 250, marginTop: 20 }}>
@@ -66,7 +60,7 @@ const Mainscreen = (props) => {
 
 
       <View style={styles.simulation_container}>
-        <Text style={styles.header_font}>Newly added</Text>
+        <Text style={styles.header_font}>Subtopic 3</Text>
         <View style={styles.line}></View>
         {/* SCROLL START */}
         <View style={{ height: 250, marginTop: 20 }}>
@@ -96,4 +90,4 @@ const Mainscreen = (props) => {
   );
 };
 
-export default Mainscreen;
+export default Modern_physics;
