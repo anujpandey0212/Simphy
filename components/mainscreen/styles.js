@@ -25,7 +25,7 @@ const styles=StyleSheet.create({
        alignSelf:'center',
    },
    simulation_container:{
-    height:'24%',
+    height:'33%',
     width:'95%',
     backgroundColor:'#4779C4',
     marginTop:30,
