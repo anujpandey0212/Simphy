@@ -14,6 +14,8 @@ const MyTheme = {
   dark: true,
    colors:{
      background: '#010202',
+     text: 'white',
+     primary: 'white',
    },
   
 };
