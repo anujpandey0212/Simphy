@@ -13,11 +13,7 @@ const styles=StyleSheet.create({
        height:100,
        backgroundColor:'#010202',
    },
-   notch:{
-    width:'100%',
-    height:35,
-    backgroundColor:'#100F0F',
-   },
+   
    simphy_logo:{
        height:41,
        width:150,
@@ -71,11 +67,6 @@ const styles=StyleSheet.create({
     marginTop:'30%',
     marginLeft:10,
     },
-    Drawer:{
-        backgroundColor: 'black',
-        flex: 1,
-
-    }
 
 });
 

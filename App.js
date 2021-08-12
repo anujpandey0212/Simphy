@@ -10,14 +10,28 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 const Drawer = createDrawerNavigator();
 // Imports for drawer support //
-
+const MyTheme = {
+  dark: true,
+   colors:{
+     background: '#010202',
+   },
+  
+};
 
 // Changed it according to implementation.
 // HomePage will be initial route name.
 export default function App() {
   return (
-  <NavigationContainer>
-  <Drawer.Navigator initialRouteName="Home" >
+  <NavigationContainer theme={MyTheme}>
+  <Drawer.Navigator 
+  initialRouteName="Home"
+  screenOptions={{
+    drawerStyle: {
+      backgroundColor: '#010202',
+      
+    },
+  }}
+  >
     <Drawer.Screen name="Home" component={Mainscreen} />
     <Drawer.Screen name="Notifications" component={Mainscreen} />
   </Drawer.Navigator>
