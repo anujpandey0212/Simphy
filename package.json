@@ -18,14 +18,8 @@
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
     "react-native-gesture-handler": "^1.10.3",
-<<<<<<< HEAD
     "react-native-web": "~0.13.12",
     "scroll-view": "^0.1.0"
-=======
-    "react-native-reanimated": "^2.2.0",
-    "react-native-web": "^0.17.1",
-    "react-navigation": "^4.4.4"
->>>>>>> 573c07413dfa41bd70905eeb8bf74a30847bbc3e
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
