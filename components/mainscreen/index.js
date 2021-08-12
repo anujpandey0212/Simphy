@@ -90,6 +90,7 @@ const Mainscreen = (props) => {
         {/* scroll end */}
         
       </View>
+      <View style={styles.jugaadh}></View>
       </ScrollView>
       </View>
     </View>

@@ -21,7 +21,7 @@ const styles=StyleSheet.create({
        alignSelf:'center',
    },
    simulation_container:{
-    height:'33%',
+    height:'28%',
     width:'95%',
     backgroundColor:'#4779C4',
     marginTop:30,
@@ -41,32 +41,10 @@ const styles=StyleSheet.create({
     marginRight:10,
     paddingTop:3,
    },
-   boxes_container:{
-    display:'flex',
-    flexDirection:'row',
-    height:'65%',
-    width:'45%',
-    marginTop:20,
-    marginLeft:13,
-   },
-   simulation_boxes:
-   {
-       height:"100%",
-       width:'85%',
-       backgroundColor:'#83AFF0',
-       marginLeft:10,
-   },
-   side_button_left:{
-        height:15,
-        width:15,
-        marginTop:'30%'
-   },
-   side_button_right:{
-    height:15,
-    width:15,
-    marginTop:'30%',
-    marginLeft:10,
-    },
+   jugaadh:{
+       height:180,
+       width:'100%',
+   }
 
 });
 
