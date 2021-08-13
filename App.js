@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from "react-native";
 import Mainscreen from "./components/mainscreen";
 import Electro_Dynamics from "./components/Electro_dynamics";
 import Modern_physics from "./components/Modern_Physics";
+import { createStackNavigator } from '@react-navigation/stack';
 import Optics from "./components/Optics";
+import Screenshot from "./components/screenshot";
 
 import "react-native-gesture-handler";
 
@@ -38,6 +40,21 @@ const Drawer = createDrawerNavigator();
 
 // Changed it according to implementation.
 // HomePage will be initial route name.
+
+const stack = createStackNavigator();
+
+function simulation_details(){
+  return(
+
+      <stack.Navigator>
+        <stack.Screen name='screenshot' component={Screenshot}></stack.Screen>
+      </stack.Navigator>
+
+  );
+}
+
+
+
 export default function App() {
   return (
     <NavigationContainer theme={DarkTheme}>
@@ -57,7 +74,8 @@ export default function App() {
           headerTitleStyle: {
             fontWeight: "bold", //Set Header text style
           },
-        }}/>
+        }}
+        />
 
           {/* this is optics screen */}
         <Drawer.Screen name="Optics" component={Optics} 

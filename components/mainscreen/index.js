@@ -25,14 +25,17 @@ const Mainscreen = (props) => {
               imageUri={require("../../assets/images/earth.png")}
               name="Simulation 1"
               color="white"
+
             />
             <Category
               imageUri={require("../../assets/images/earth.png")}
               name="Simulation 2"
+
             />
             <Category
               imageUri={require("../../assets/images/earth.png")}
               name="Simulation 3"
+
             />
           </ScrollView>
         </View>

@@ -13,7 +13,7 @@ class Category extends Component {
             <View >
                 <Pressable
                 style={{ zIndex:30,flex:1,height: 230, width: 200, marginLeft: 20, borderWidth: 1, borderColor: '#dddddd' , backgroundColor: 'black',borderRadius:5}}
-                onPress={()=>{console.warn("hn bhai existing")}}
+                onPress={()=>navigation.navigate('screenshot')}
                 >
                 <View style={{ flex: 2}}>
                     <Image source={this.props.imageUri}
